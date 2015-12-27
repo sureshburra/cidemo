@@ -1,0 +1,7 @@
+Feature: Search Keys on Google
+
+Scenario: Leanpitch should more than 10000 search
+Given User open "google.co.in" in Firefox browser
+And User enter "Leanpitch" in search textbox
+When user click on Search button
+Then Result must be more than 10000
